@@ -12,6 +12,7 @@ function superbowlWin(arr) {
     return findWin;
   }
   else{
- return arr['year'];
+ return findWin['year'];
   }
+  
 }
