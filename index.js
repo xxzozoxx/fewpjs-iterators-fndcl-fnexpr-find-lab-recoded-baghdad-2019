@@ -8,7 +8,7 @@ const record = [
 function superbowlWin(arr) {
   let findWin = arr.find(function(w){
      return w['result'] === 'W';})
-  if(arr['result'] === undefined){
+  if(findWin['result'] === undefined){
     return arr;
   }
  return arr['year'];
