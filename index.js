@@ -6,7 +6,7 @@ const record = [
 ]
 
 function superbowlWin(arr) {
-  arr=arr.find(function(w){
+  let findWin = arr.find(function(w){
      return w['result'] === 'W';})
   if(arr['result'] === undefined){
     return arr;
