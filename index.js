@@ -8,5 +8,5 @@ const record = [
 function superbowlWin(arr) {
   arr=arr.find(function(w){
      return w['result'] === 'W';})
- return parseInt(arr['year']);
+ return arr['year'];
 }
